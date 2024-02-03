@@ -1,0 +1,153 @@
+.principal{
+    background-color: darkgray;
+    border-radius: .5rem;
+}
+.resultado{
+    max-width: 100%;
+    background-color: black;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;    
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+#p-resultado{
+    color: white;
+    font-weight: bold;
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-bottom: 0;
+    font-size: 2rem;
+}
+
+/* .sumar, .restar , .multiplicar , .dividir{
+    background-color: rgb(33, 153, 153);
+    width: 25%;    
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: .3rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+} */
+.grid-container {
+    display: grid;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .grid-itemac{
+    background-color: red;
+    text-align: center;
+  }
+  
+  .item-suma {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  
+  .item-resta {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  .item-mult {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+  .item-div {
+    grid-column: 4 / 4;
+    grid-row: 1 / 2;
+  }
+  
+  .itemIgual {
+    grid-column: 4 / 4;
+    grid-row: 2 / span 4;
+    border-radius: .5rem;
+  }
+  .item-igual{
+    text-align: center;
+  }
+  .itemIgual:hover{
+    cursor: pointer;
+    background-color: rgba(159, 150, 150, 0.8);
+    transition: .3s ease-in;
+  }
+  .item7 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+  }
+  .item8 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+  }
+  .item9 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+  }
+  .item4 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 3;
+  }
+  .item5 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+  }
+  .item6 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 3;
+  }
+  .item1{
+    grid-column: 1 / 2;
+    grid-row: 4 / 4;
+  }
+  .item2{
+    grid-column: 2 / 3;
+    grid-row: 4 / 4;
+  }
+  .item3{
+    grid-column: 3 / 4;
+    grid-row: 4 / 4;
+  }
+  .item0{
+    grid-column: 1 / 2;
+    grid-row: 5 / 5;
+  }
+  .item-punto{
+    grid-column: 2 / 3;
+    grid-row: 5 / 5;
+  }
+  .item-ac{
+    grid-column: 3 / 4;
+    grid-row: 5 / 5;
+  }
+
+  .numero{
+    border-radius: .5rem;
+  }
+  .numero:hover{
+    cursor: pointer;
+    background-color: rgba(159, 150, 150, 0.8);
+    transition: .3s ease-in;
+  }
+  .operaciones{
+    border-radius: .5rem;
+    background-color: #005396;
+    color: white;
+    transition: .3s ease-in;
+  }
+  .operaciones:hover{
+    cursor: pointer;
+    background-color: #002f55;
+    transition: .3s ease-in;
+  }
+  
